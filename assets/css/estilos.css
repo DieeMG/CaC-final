@@ -12,7 +12,7 @@
 8. Contact
 --------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&display=swap');
 
 .text-primary{
   color: #1976D2!important;  
@@ -29,6 +29,9 @@
 .bg-secondary{
   background-color: #2196F3!important;
 }
+
+
+
 
 html {font-family: 'Lato', sans-serif;}
 /* Typography */
@@ -70,6 +73,7 @@ p, a {font-weight: 400;}
   min-height: 60vh;
   width: 100%;
 }
+
 #index_banner .carousel-item {
   min-height: 60vh;
 }

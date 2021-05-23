@@ -78,7 +78,7 @@
 		-->
   		              <div class="flex-fill mx-xl-5 mb-2">
 				<!--	  mx=para clases que establecen tanto *-lefty*-right-->
- 	                   <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+ 	                   <ul class="nav navbar-nav d-flex justify-content-end mx-xl-5 text-center text-dark">
 					<!--   .navbar-nav para una navegación ligera y de altura completa 
 					   (incluida la compatibilidad con menús desplegables).-->
                         <li class="nav-item">
@@ -89,9 +89,9 @@
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">Sobre Nosotros</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">Trabajos</a>
-                        </li>
+                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">Precios</a>
                         </li>
@@ -123,9 +123,10 @@
 
             <!-- Start slider -->
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <!-- <ol class="carousel-indicators">
+                 <ol class="carousel-indicators">
                     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-                </ol> -->
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                </ol>
  <!-- class="active" Se requiere un elemento activo inicial
 La .activeclase debe agregarse a una de las diapositivas. De lo contrario, el carrusel no será visible. -->
 				
@@ -164,22 +165,39 @@ Ver: https://getbootstrap.com/docs/4.0/components/carousel/  -->
                                 <p class="banner-body text-muted py-3 mx-0 px-0">
                                     Pulido & Tratamientos integrales.
                               </p>
-                                <!-- <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" 
-								href="#" role="button">Comenzar</a> -->
+                                 <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" 
+								href="/contact.html" role="button">Contactanos</a>
                             </div>
                         </div>
 
                     </div>
+ <!--item 2-->
 
+                    <div class="carousel-item">
+
+                        <div class="py-5 row d-flex align-items-center">
+                            <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
+                                <h1 class="banner-heading h1 text-secondary display-3 mb-0 pb-3 mx-0 px-0 light-300">
+                                    Optimizamos publicaciones en redes sociales
+                                </h1>
+                                <p class="banner-body text-muted py-3">
+                                    Somos expertos en comunicación social.
+                                </p>
+                                <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="/contact.html" role="button">Contactanos</a>
+                    <!--role="button" indica que un boton no apunta a una url sino que hace otra cosa-->	
+                            </div>
+                        </div>
+
+                    </div>
     <!-------------------------------------------------------Flechas del carrousel   -->
-                <!-- <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                 <a class="carousel-control-prev text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
                     <i class='bx bx-chevron-left'></i>
                     <span class="visually-hidden">Ant.</span>
                 </a>
                 <a class="carousel-control-next text-decoration-none" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
                     <i class='bx bx-chevron-right'></i>
                     <span class="visually-hidden">Prox.</span>
-                </a> -->
+                </a> 
             </div>
 			 <!-- bx-chevron-right y left son las puntas de flecha del carrousel -->
             <!-- End slider -->
@@ -193,12 +211,12 @@ Ver: https://getbootstrap.com/docs/4.0/components/carousel/  -->
         <div class="container-fluid pb-3">
             <div class="row">
                 <h2 class="h2 text-center col-12 py-5 semi-bold-600">Servicios</h2>
-                <div class="service-header col-2 col-lg-3 text-end light-300">
+                <!-- <div class="service-header col-2 col-lg-3 text-end light-300">
                     <i class='bx bx-gift h3 mt-1'></i>
                 </div>
                 <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
                     <h2 class="h3 pb-4 typo-space-line">Hacemos que el futuro sea hoy</h2>
-                </div>
+                </div> -->
             </div>
             <!-- <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
                No busques más clientes, ellos te buscarán a ti.
@@ -374,122 +392,6 @@ Ver: https://getbootstrap.com/docs/4.0/components/carousel/  -->
     <!-- End Service -->
 
 
-
-
-
-
-    <!-- Start View Work -->
-    <section class="bg-secondary">
-        <div class="container py-5">
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-lg-2 col-12 text-light align-items-center">
-                    <i class='display-1 bx bxs-box bx-lg'></i>
-                </div>
-                <div class="col-lg-7 col-12 text-light pt-2">
-                    <h3 class="h4 light-300">Transformá tu forma de vender</h3>
-                    <p class="light-300">Quis ipsum suspendisse ultrices gravida.</p>
-                </div>
-                <div class="col-lg-3 col-12 pt-4">
-                    <a href="#" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2">Portfolio</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End View Work -->
-
-    <!-- Start Recent Work -->
-    <section class="py-5 mb-5">
-        <div class="container">
-            <div class="recent-work-header row text-center pb-5">
-                <h2 class="col-md-6 m-auto h2 semi-bold-600 py-5">Nuestros Trabajos</h2>
-            </div>
-            <div class="row gy-5 g-lg-5 mb-4">
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-01.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Social Media</h3>
-                                <p class="card-text">Ullamco laboris nisi ut aliquip ex</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-02.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Web Marketing</h3>
-                                <p class="card-text">Psum officia anim id est laborum.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-03.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Posicionamiento</h3>
-                                <p class="card-text">Sum dolor sit consencutur</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-04.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Estudios de Mercado</h3>
-                                <p class="card-text">Lorem ipsum dolor sit amet</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-05.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Desarrollo de Marca</h3>
-                                <p class="card-text">Put enim ad minim veniam</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-                <!-- Start Recent Work -->
-                <div class="col-md-4 mb-3">
-                    <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="./assets/img/recent-work-06.jpg" alt="Card image">
-                        <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
-                            <div class="recent-work-content text-start mb-3 ml-3 text-dark">
-                                <h3 class="card-title light-300">Diseño Creativo</h3>
-                                <p class="card-text">Mollit anim id est laborum.</p>
-                            </div>
-                        </div>
-                    </a>
-                </div><!-- End Recent Work -->
-
-            </div>
-        </div>
-    </section>
-    <!-- End Recent Work -->
-
-
-
     <!-- Start Footer -->
     <footer class="bg-secondary pt-4">
         <div class="container">
@@ -497,8 +399,8 @@ Ver: https://getbootstrap.com/docs/4.0/components/carousel/  -->
 
                 <div class="col-lg-3 col-12 align-left">
                     <a class="navbar-brand" href="index.html">
-                        <i class='bx bx-buildings bx-sm text-light'></i>
-                        <span class="text-light h5">Marke-</span><span class="text-light h5 semi-bold-600">Ting</span>
+                        <i class='bx bx-car bx-sm text-light'></i>
+                        <span class="text-light h5">Car-</span><span class="text-light h5 semi-bold-600">Detail</span>
                     </a>
                     <p class="text-light my-lg-4 my-2">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit,
