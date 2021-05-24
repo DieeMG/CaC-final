@@ -30,8 +30,18 @@
   background-color: #2196F3!important;
 }
 
+.btn-outline-primary.active{
+  background-color: #FFC107;
+}
 
+.btn-outline-primary {
+  color: #ffc107;
+  border-color: #ffc107;
+}
 
+.btn-outline-primary:hover{
+  background-color: #FFC107; 
+}
 
 html {font-family: 'Lato', sans-serif;}
 /* Typography */
