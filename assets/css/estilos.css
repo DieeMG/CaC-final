@@ -34,13 +34,26 @@
   background-color: #FFC107;
 }
 
-.btn-outline-primary {
-  color: #ffc107;
+.btn-primary {
+  color: #222;
+  background-color: #ffc107;
   border-color: #ffc107;
+}
+
+.btn-primary:hover {
+  color: #222;
+  background-color: #f7d05c;
+  border-color: #ffbd07;
 }
 
 .btn-outline-primary:hover{
   background-color: #FFC107; 
+  border-color: #ffc107;
+}
+
+
+.btn-outline-primary:focus{
+  border-color: #ffc107;
 }
 
 html {font-family: 'Lato', sans-serif;}
