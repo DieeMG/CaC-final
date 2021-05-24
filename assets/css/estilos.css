@@ -110,7 +110,7 @@ p, a {font-weight: 400;}
   transition: .5s;
 }
 .service-work .service-work-vertical:hover * {
-  color: #000;
+  color: #000000;
   border-color: #000;
   transition: .5s;
 }
